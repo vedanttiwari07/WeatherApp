@@ -133,7 +133,15 @@ body[dataTheme = "white"] {
         gap: 19px;
     }
 
+    .inputBox[theme] {
+        width: 35%;
+    }
+
     .getWeatherButton[theme] {
         font-size: 5vw;
+    }
+
+    .uitoggleButton {
+        display: none;
     }
 }
