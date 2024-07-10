@@ -109,6 +109,8 @@ body[dataTheme = "white"] {
     justify-content: space-between;
     padding-inline: 25px;
     font-size: 18px;
+    position: relative;
+    top: 30px;
 }
 
 .description {
@@ -143,5 +145,13 @@ body[dataTheme = "white"] {
 
     .uitoggleButton {
         display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .weatherDetails {
+        top: 0px;
+        position: static;
     }
 }
