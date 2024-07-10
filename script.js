@@ -28,7 +28,7 @@ function weatherData() {
         document.querySelector(".cityDisplay").innerHTML = cityName;
         document.querySelector(".humidity").innerHTML = `${humidity}%`;
         document.querySelector(".description").innerHTML = description;
-        document.querySelector(".wind").innerHTML = windSpeed;
+        document.querySelector(".wind").innerHTML = `${windSpeed}km/h`;
 
         card.style.display = "block";
     })
