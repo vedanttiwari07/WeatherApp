@@ -10,7 +10,6 @@ function weatherData() {
 
     let city = inputBox.value.trim();
     
-    const apiKey = "786fa656f894f94166c199b7391b92fc";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(apiUrl)
